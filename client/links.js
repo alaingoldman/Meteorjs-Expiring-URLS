@@ -7,7 +7,7 @@ Template.new.events({
         if(error){}
         else{
           $('[name=info]').val("");
-          $('#result').html("http://localhost:3000/show/"  + id + "<br>" + "<a href='http://localhost:3000/show/" + id + "'>visit link?</a>");
+          $('#result').html("http://expire.meteor.com/show/"  + id + "<br>" + "<a href='http://expire.meteor.com/show/" + id + "'>visit link?</a>");
         }
       });
     }
